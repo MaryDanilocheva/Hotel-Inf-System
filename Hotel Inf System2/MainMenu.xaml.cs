@@ -54,5 +54,27 @@ namespace Hotel_Inf_System2
         {
             NavigationService.Navigate(new Uri("/DryCleaningPage6.xaml", UriKind.Relative));
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/LoginPage.xaml", UriKind.Relative));
+        }
+        public ApplicationPage CurrentPage { get; set; } = ApplicationPage.Login;
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
+            
+        }
+        private void Application_NavigationFailed(object sender,
+       System.Windows.Navigation.NavigationFailedEventArgs e)
+        {
+            if (e.Exception is System.Net.WebException)
+            {
+                MessageBox.Show("Сайт " + e.Uri.ToString() + " не доступен :(");
+                // Нейтрализовать ошибку, чтобы приложение продолжило свою работу
+                e.Handled = true;
+            }
+        }
     }
 }

@@ -9,6 +9,7 @@
       Title="MainMenu">
 
     <Grid>
+        <Frame x:Name="MainFrame" Content="{Binding CurrentPage}" />
         <Grid HorizontalAlignment="Left" Height="100" Margin="10,0,10,10" VerticalAlignment="Top" Width="100">
             <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="35,98,-148,-21" TextWrapping="Wrap" Text="Выберите услугу из списка ниже" VerticalAlignment="Top" Width="213"/>
         </Grid>
@@ -20,7 +21,11 @@
             <ComboBoxItem Content="Заказ такси" HorizontalAlignment="Left" Width="214" Selected="ComboBoxItem_Selected_4"/>
             <ComboBoxItem Content="Услуги прачечной" HorizontalAlignment="Left" Width="214" Selected="ComboBoxItem_Selected_5"/>
         </ComboBox>
-        <Button x:Name="button" Content="Перейти на сайт отеля" HorizontalAlignment="Left" Margin="131,119,0,0" Grid.Row="1" VerticalAlignment="Top" Width="136"/>
+        <Button x:Name="button1" Content="Авторизация" HorizontalAlignment="Left" Margin="10,149,0,0" Grid.Row="1" VerticalAlignment="Top" Width="90" Click="button1_Click"/>
+        <TextBlock Margin="170,156,-160,-66" Grid.RowSpan="2" Grid.Row="1">
+       <Hyperlink NavigateUri="http://www.suisse-majestic.ch/">Посетить сайт отеля</Hyperlink>
+        </TextBlock>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
@@ -32,4 +37,5 @@
 
 
     </Grid>
+
 </Page>

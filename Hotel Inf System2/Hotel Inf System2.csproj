@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ApplicationPage.cs" />
     <Compile Include="DeliveryPage2.xaml.cs">
       <DependentUpon>DeliveryPage2.xaml</DependentUpon>
     </Compile>
@@ -63,6 +64,9 @@
     </Compile>
     <Compile Include="InterestingEventsPage4.xaml.cs">
       <DependentUpon>InterestingEventsPage4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ReportPage1.xaml.cs">
       <DependentUpon>ReportPage1.xaml</DependentUpon>
@@ -82,6 +86,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="InterestingEventsPage4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
