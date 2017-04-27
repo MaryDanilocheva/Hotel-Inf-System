@@ -9,16 +9,7 @@
       Title="InterestingEventsPage4">
 
     <Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="68,33,0,0" TextWrapping="Wrap" Text="Интересные события" VerticalAlignment="Top" Width="157" RenderTransformOrigin="0.5,0.5">
-            <TextBox.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleY="-0.661"/>
-                    <RotateTransform/>
-                    <TranslateTransform Y="-0.693"/>
-                </TransformGroup>
-            </TextBox.RenderTransform>
-        </TextBox>
+        <Label Content="Интересные события" HorizontalAlignment="Left" Margin="52,19,0,0" VerticalAlignment="Top" FontSize="18"/>
 
     </Grid>
 </Page>

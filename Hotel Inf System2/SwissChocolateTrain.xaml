@@ -1,0 +1,16 @@
+﻿<Page x:Class="Hotel_Inf_System2.SwissChocolateTrain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Hotel_Inf_System2"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="SwissChocolateTrain">
+
+    <Grid>
+        <Label Content="Swiss Chocolate Train" HorizontalAlignment="Left" Margin="18,10,0,0" VerticalAlignment="Top" Width="166"/>
+        <Image HorizontalAlignment="Left" Height="147" Margin="45,67,0,0" VerticalAlignment="Top" Width="196" Source="pics/resized_650x365_origimage_679476.jpg"/>
+
+    </Grid>
+</Page>

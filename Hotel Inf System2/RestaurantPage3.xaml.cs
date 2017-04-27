@@ -24,5 +24,10 @@ namespace Hotel_Inf_System2
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -19,10 +19,16 @@ namespace Hotel_Inf_System2
     /// Interaction logic for DeliveryPage2.xaml
     /// </summary>
     public partial class DeliveryPage2 : Page
-    {
+    { 
         public DeliveryPage2()
         {
             InitializeComponent();
+           
+        }
+        
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

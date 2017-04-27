@@ -1,0 +1,18 @@
+﻿<Page x:Class="Hotel_Inf_System2.Chateau"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Hotel_Inf_System2"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Chateau">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="100" Margin="180,17,0,0" VerticalAlignment="Top" Width="100" Source="pics/1200px-Castle_of_Chillon_N.jpg" />
+        <Image HorizontalAlignment="Left" Height="100" Margin="180,122,0,0" VerticalAlignment="Top" Width="100" Source="pics/Chateau-de-Chillon-02-e1460294439946.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="180,200,0,0" VerticalAlignment="Top" Width="100" Source="pics/Suisse, Montreux, Chateau de Chillon (1).jpg"/>
+        <Label Content="Chateau de Chillon" HorizontalAlignment="Left" Margin="19,17,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+    </Grid>
+</Page>

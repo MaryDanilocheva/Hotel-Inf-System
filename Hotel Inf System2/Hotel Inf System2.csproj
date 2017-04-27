@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -56,6 +57,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ApplicationPage.cs" />
+    <Compile Include="Chateau.xaml.cs">
+      <DependentUpon>Chateau.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DeliveryPage2.xaml.cs">
       <DependentUpon>DeliveryPage2.xaml</DependentUpon>
     </Compile>
@@ -74,9 +78,16 @@
     <Compile Include="RestaurantPage3.xaml.cs">
       <DependentUpon>RestaurantPage3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SwissChocolateTrain.xaml.cs">
+      <DependentUpon>SwissChocolateTrain.xaml</DependentUpon>
+    </Compile>
     <Compile Include="TaxiPage5.xaml.cs">
       <DependentUpon>TaxiPage5.xaml</DependentUpon>
     </Compile>
+    <Page Include="Chateau.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DeliveryPage2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -120,6 +131,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="SwissChocolateTrain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="TaxiPage5.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -151,6 +166,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\06_2_0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\academia-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\article_543675a934e828.38452665.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\content_fotolia_73980751_subscription_xxl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\fastfood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\fe8ad5c0a5933f5c94fab3426953dfeb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\milfey_big.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\molino-pizzeria-ristorante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\81855-Chateau-De-Chillon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\CpU-XTbXEAAztog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\resized_650x365_origimage_679476.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\1200px-Castle_of_Chillon_N.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\Chateau-de-Chillon-02-e1460294439946.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pics\Suisse, Montreux, Chateau de Chillon %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
