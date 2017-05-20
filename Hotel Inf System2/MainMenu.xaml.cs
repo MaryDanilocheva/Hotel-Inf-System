@@ -57,7 +57,7 @@ namespace Hotel_Inf_System2
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/LoginPage.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Authorization.xaml", UriKind.Relative));
         }
         public ApplicationPage CurrentPage { get; set; } = ApplicationPage.Login;
 
@@ -75,6 +75,16 @@ namespace Hotel_Inf_System2
                 // Нейтрализовать ошибку, чтобы приложение продолжило свою работу
                 e.Handled = true;
             }
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Login1.xaml", UriKind.Relative));
         }
     }
 }

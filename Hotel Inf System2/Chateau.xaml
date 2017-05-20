@@ -9,9 +9,9 @@
       Title="Chateau">
 
     <Grid>
-        <Image HorizontalAlignment="Left" Height="100" Margin="180,17,0,0" VerticalAlignment="Top" Width="100" Source="pics/1200px-Castle_of_Chillon_N.jpg" />
-        <Image HorizontalAlignment="Left" Height="100" Margin="180,122,0,0" VerticalAlignment="Top" Width="100" Source="pics/Chateau-de-Chillon-02-e1460294439946.jpg"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="180,200,0,0" VerticalAlignment="Top" Width="100" Source="pics/Suisse, Montreux, Chateau de Chillon (1).jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="180,17,0,0" VerticalAlignment="Top" Width="100" Source="Resources/p.jpg" />
+        <Image HorizontalAlignment="Left" Height="100" Margin="180,122,0,0" VerticalAlignment="Top" Width="100" Source="Resources/Geneva-81701.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="180,200,0,0" VerticalAlignment="Top" Width="100" Source="Resources/0_e9d0d_c3086ce4_orig.jpg"/>
         <Label Content="Chateau de Chillon" HorizontalAlignment="Left" Margin="19,17,0,0" VerticalAlignment="Top" FontSize="16"/>
 
     </Grid>

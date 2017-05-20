@@ -12,17 +12,17 @@
         <Label Content="Доставка еды" HorizontalAlignment="Left" Margin="91,10,0,0" VerticalAlignment="Top" AutomationProperties.IsColumnHeader="True" Width="120"/>
         <Button Content="Китайская" Height="43" HorizontalAlignment="Left" Margin="0,78,0,0" Name="Button1" VerticalAlignment="Top" Width="77" Click="Button1_Click">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\pics\content_fotolia_73980751_subscription_xxl.jpg" />
+                <ImageBrush ImageSource="Resources\content_fotolia_73980751_subscription_xxl.jpg"/>
             </Button.Background>
         </Button>
         <Button Content="Итальянская" HorizontalAlignment="Left" Margin="91,78,0,0" VerticalAlignment="Top" Width="96" Height="43">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\pics\academia-10.jpg" />
+                <ImageBrush ImageSource="Resources\academia-10.jpg" />
             </Button.Background>
         </Button>
         <Button Content="Пиццерии " HorizontalAlignment="Left" Margin="197,78,0,0" VerticalAlignment="Top" Width="75" Height="43" RenderTransformOrigin="0.344,0.537">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\pics\06_2_0.jpg" />
+                <ImageBrush ImageSource="Resources\pizza.jpg" />
             </Button.Background>
         </Button>
 

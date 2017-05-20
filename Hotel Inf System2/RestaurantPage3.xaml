@@ -11,17 +11,17 @@
     <Grid>
         <Button Content="Китайская" Height="43" HorizontalAlignment="Left" Margin="10,78,0,0" Name="Button1" VerticalAlignment="Top" Width="77" Click="Button1_Click">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\pics\content_fotolia_73980751_subscription_xxl.jpg" />
+                <ImageBrush ImageSource="Resources\content_fotolia_73980751_subscription_xxl.jpg" />
             </Button.Background>
         </Button>
         <Button Content="Итальянская" HorizontalAlignment="Left" Margin="105,78,0,0" VerticalAlignment="Top" Width="96" Height="43">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\pics\academia-10.jpg" />
+                <ImageBrush ImageSource="Resources\academia-10.jpg" />
             </Button.Background>
         </Button>
         <Button Content="Пиццерии " HorizontalAlignment="Left" Margin="215,78,0,0" VerticalAlignment="Top" Width="75" Height="43">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\pics\06_2_0.jpg" />
+                <ImageBrush ImageSource="Resources\pizza.jpg" />
             </Button.Background>
         </Button>
         <Label Content="Забронировать столик в ресторане" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT Condensed" Width="280" FontSize="16"/>

@@ -10,7 +10,7 @@
 
     <Grid>
         <Label Content="Swiss Chocolate Train" HorizontalAlignment="Left" Margin="18,10,0,0" VerticalAlignment="Top" Width="166"/>
-        <Image HorizontalAlignment="Left" Height="147" Margin="45,67,0,0" VerticalAlignment="Top" Width="196" Source="pics/resized_650x365_origimage_679476.jpg"/>
+        <Image HorizontalAlignment="Left" Height="147" Margin="45,67,0,0" VerticalAlignment="Top" Width="196" Source="Resources/Sweet-Switzerland-The-Chocolate-Train.jpg"/>
 
     </Grid>
 </Page>

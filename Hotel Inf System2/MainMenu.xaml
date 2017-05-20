@@ -4,11 +4,11 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Hotel_Inf_System2"
-      mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
-      Title="MainMenu">
+      mc:Ignorable="d"
+      Title="MainMenu" Height="324" Width="311">
 
-    <Grid Margin="0,0,-87,-49">
+    <Grid>
+
         <Frame x:Name="MainFrame" Content="{Binding CurrentPage}" />
         <Grid HorizontalAlignment="Left" Height="100" Margin="10,0,10,10" VerticalAlignment="Top" Width="100">
             <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="35,98,-148,-21" TextWrapping="Wrap" Text="Выберите услугу из списка ниже" VerticalAlignment="Top" Width="213"/>
@@ -21,15 +21,13 @@
             <ComboBoxItem Content="Заказ такси" HorizontalAlignment="Left" Width="214" Selected="ComboBoxItem_Selected_4"/>
             <ComboBoxItem Content="Услуги прачечной" HorizontalAlignment="Left" Width="214" Selected="ComboBoxItem_Selected_5"/>
         </ComboBox>
+        <Button x:Name="button" Content="Вход" HorizontalAlignment="Left" Margin="10,120,0,0" Grid.Row="1" VerticalAlignment="Top" Width="90" Height="24" Click="button_Click_1"/>
         <Button x:Name="button1" Content="Авторизация" HorizontalAlignment="Left" Margin="10,149,0,0" Grid.Row="1" VerticalAlignment="Top" Width="90" Click="button1_Click"/>
-        <TextBlock Margin="170,156,-160,-66" Grid.RowSpan="2" Grid.Row="1">
+        <TextBlock Margin="117,147,10,30" Grid.Row="1" FontSize="20">
        <Hyperlink NavigateUri="http://www.suisse-majestic.ch/">Посетить сайт отеля</Hyperlink>
+
         </TextBlock>
-        
-            <Grid.Background>
-                <ImageBrush ImageSource="C:/Users/Иван/Documents/Visual Studio 2017/Projects/SM.bmp.jpg"></ImageBrush>
-            </Grid.Background>
-      
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
@@ -40,6 +38,9 @@
         </Grid.RowDefinitions>
 
 
+
     </Grid>
 
 </Page>
+
+    

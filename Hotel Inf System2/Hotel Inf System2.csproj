@@ -57,6 +57,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="ApplicationPage.cs" />
+    <Compile Include="Authorization.xaml.cs">
+      <DependentUpon>Authorization.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Chateau.xaml.cs">
       <DependentUpon>Chateau.xaml</DependentUpon>
     </Compile>
@@ -66,11 +69,20 @@
     <Compile Include="DryCleaningPage6.xaml.cs">
       <DependentUpon>DryCleaningPage6.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Human.cs" />
     <Compile Include="InterestingEventsPage4.xaml.cs">
       <DependentUpon>InterestingEventsPage4.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LoginPage.xaml.cs">
-      <DependentUpon>LoginPage.xaml</DependentUpon>
+    <Compile Include="Login1.xaml.cs">
+      <DependentUpon>Login1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RegUser.xaml.cs">
+      <DependentUpon>RegUser.xaml</DependentUpon>
     </Compile>
     <Compile Include="ReportPage1.xaml.cs">
       <DependentUpon>ReportPage1.xaml</DependentUpon>
@@ -84,6 +96,10 @@
     <Compile Include="TaxiPage5.xaml.cs">
       <DependentUpon>TaxiPage5.xaml</DependentUpon>
     </Compile>
+    <Page Include="Authorization.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Chateau.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -100,7 +116,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="LoginPage.xaml">
+    <Page Include="Login1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -123,6 +139,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="RegUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ReportPage1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -144,11 +164,6 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -168,46 +183,91 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\06_2_0.jpg" />
+    <Resource Include="Properties\pics\06_2_0.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\academia-10.jpg" />
+    <Resource Include="Properties\pics\academia-10.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\article_543675a934e828.38452665.jpeg" />
+    <Resource Include="Properties\pics\article_543675a934e828.38452665.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\content_fotolia_73980751_subscription_xxl.jpg" />
+    <Resource Include="Properties\pics\content_fotolia_73980751_subscription_xxl.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\fastfood.jpg" />
+    <Resource Include="Properties\pics\fastfood.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\fe8ad5c0a5933f5c94fab3426953dfeb.jpg" />
+    <Resource Include="Properties\pics\fe8ad5c0a5933f5c94fab3426953dfeb.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\milfey_big.jpg" />
+    <Resource Include="Properties\pics\milfey_big.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\molino-pizzeria-ristorante.png" />
+    <Resource Include="Properties\pics\molino-pizzeria-ristorante.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\81855-Chateau-De-Chillon.jpg" />
+    <Resource Include="Properties\pics\81855-Chateau-De-Chillon.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\CpU-XTbXEAAztog.jpg" />
+    <Resource Include="Properties\pics\CpU-XTbXEAAztog.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\resized_650x365_origimage_679476.jpg" />
+    <Resource Include="Properties\pics\resized_650x365_origimage_679476.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\1200px-Castle_of_Chillon_N.jpg" />
+    <Resource Include="Properties\pics\1200px-Castle_of_Chillon_N.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\Chateau-de-Chillon-02-e1460294439946.jpg" />
+    <Resource Include="Properties\pics\Chateau-de-Chillon-02-e1460294439946.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pics\Suisse, Montreux, Chateau de Chillon %281%29.jpg" />
+    <Resource Include="Properties\pics\Suisse, Montreux, Chateau de Chillon %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\DSC08750.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\0_e9d0d_c3086ce4_orig.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\cb3cvZ-YZDQ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Geneva-81701.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Offre_Les_Rochers_de_Naye_Randonnees_BackGround_1_1920x1080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\p.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Schweiz_Schloss_Chillon_Gesamtansicht.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Sweet-Switzerland-The-Chocolate-Train.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\academia-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\content_fotolia_73980751_subscription_xxl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\fastfood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\fe8ad5c0a5933f5c94fab3426953dfeb - копия.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\milfey_big - копия.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\pizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\checkin.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

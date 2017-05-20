@@ -1,0 +1,107 @@
+c:\users\viktor\documents\visual studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.exe.config
+c:\users\viktor\documents\visual studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.csprojResolveAssemblyReference.cache
+c:\users\viktor\documents\visual studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainWindow.g.cs
+c:\users\viktor\documents\visual studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\ReportPage1.g.cs
+c:\users\viktor\documents\visual studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\App.g.cs
+c:\users\viktor\documents\visual studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2_MarkupCompile.cache
+c:\users\viktor\documents\visual studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2_MarkupCompile.lref
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.exe
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.pdb
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainMenu.g.cs
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainMenu.baml
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainWindow.baml
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\ReportPage1.baml
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.g.resources
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel_Inf_System2.Properties.Resources.resources
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.csproj.GenerateResource.Cache
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.exe
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.pdb
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\DeliveryPage2.g.cs
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\DryCleaningPage6.g.cs
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\InterestingEventsPage4.g.cs
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\RestaurantPage3.g.cs
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\TaxiPage5.g.cs
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\DeliveryPage2.baml
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\DryCleaningPage6.baml
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\InterestingEventsPage4.baml
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\RestaurantPage3.baml
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\TaxiPage5.baml
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\LoginPage.g.cs
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\Hotel Inf System2\Hotel Inf System2\obj\Debug\LoginPage.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.exe.config
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.exe
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.pdb
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.csprojResolveAssemblyReference.cache
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\DeliveryPage2.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\DryCleaningPage6.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\InterestingEventsPage4.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\LoginPage.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainMenu.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainWindow.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\ReportPage1.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\RestaurantPage3.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\TaxiPage5.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\App.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2_MarkupCompile.cache
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2_MarkupCompile.lref
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\DeliveryPage2.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\DryCleaningPage6.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\InterestingEventsPage4.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\LoginPage.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainMenu.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainWindow.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\ReportPage1.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\RestaurantPage3.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\TaxiPage5.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.g.resources
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel_Inf_System2.Properties.Resources.resources
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.csproj.GenerateResource.Cache
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.exe
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.pdb
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Chateau.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Chateau.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\SwissChocolateTrain.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\SwissChocolateTrain.baml
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Login1.g.cs
+C:\Users\Иван\Desktop\Hotel Inf System2\Hotel Inf System2\obj\Debug\Login1.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.exe.config
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.pdb
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.exe
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.pdb
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Chateau.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\DeliveryPage2.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\DryCleaningPage6.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\InterestingEventsPage4.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Login1.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainMenu.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainWindow.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\ReportPage1.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\RestaurantPage3.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\SwissChocolateTrain.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\TaxiPage5.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\App.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2_MarkupCompile.cache
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2_MarkupCompile.lref
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Chateau.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\DeliveryPage2.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\DryCleaningPage6.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\InterestingEventsPage4.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Login1.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainMenu.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\MainWindow.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\ReportPage1.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\RestaurantPage3.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\SwissChocolateTrain.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\TaxiPage5.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.g.resources
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel_Inf_System2.Properties.Resources.resources
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.csproj.GenerateResource.Cache
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.exe
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Authorization.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\RegUser.g.cs
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Authorization.baml
+C:\Users\Viktor\Desktop\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\RegUser.baml
+F:\китайсе\Hotel Inf System2\Hotel Inf System2\bin\Debug\Hotel Inf System2.exe.config
+F:\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.exe
+F:\китайсе\Hotel Inf System2\Hotel Inf System2\obj\Debug\Hotel Inf System2.pdb
