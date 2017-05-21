@@ -5,15 +5,17 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Hotel_Inf_System2"
       mc:Ignorable="d"
-      Title="MainMenu" Height="324" Width="311">
+      Title="MainMenu" FontSize="{Binding CurrentPage}">
+    <Page.Background>
+        <ImageBrush ImageSource="Resources\DSC08750.JPG" />
+    </Page.Background>
+    <Grid Name="Grid1" Height="522" Width="694" >
 
-    <Grid>
 
-        <Frame x:Name="MainFrame" Content="{Binding CurrentPage}" />
-        <Grid HorizontalAlignment="Left" Height="100" Margin="10,0,10,10" VerticalAlignment="Top" Width="100">
-            <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="35,98,-148,-21" TextWrapping="Wrap" Text="Выберите услугу из списка ниже" VerticalAlignment="Top" Width="213"/>
-        </Grid>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="45,35,0,0" Grid.Row="1" VerticalAlignment="Top" Width="216">
+        <Frame x:Name="MainFrame" Content="{Binding CurrentPage}" Navigated="MainFrame_Navigated" />
+
+
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="384,177,0,0" VerticalAlignment="Top" Width="268" FontSize="{Binding CurrentPage}" Height="39" >
             <ComboBoxItem Content="Доставка еды" HorizontalAlignment="Left" Width="118" Selected="ComboBoxItem_Selected_1"/>
             <ComboBoxItem Content="Забронировать столик в ресторане" HorizontalAlignment="Left" Width="216" Margin="0,0,-2,0" Selected="ComboBoxItem_Selected_2"/>
             <ComboBoxItem Content="Интересные места " HorizontalAlignment="Left" Width="214" Selected="ComboBoxItem_Selected"/>
@@ -21,21 +23,22 @@
             <ComboBoxItem Content="Заказ такси" HorizontalAlignment="Left" Width="214" Selected="ComboBoxItem_Selected_4"/>
             <ComboBoxItem Content="Услуги прачечной" HorizontalAlignment="Left" Width="214" Selected="ComboBoxItem_Selected_5"/>
         </ComboBox>
-        <Button x:Name="button" Content="Вход" HorizontalAlignment="Left" Margin="10,120,0,0" Grid.Row="1" VerticalAlignment="Top" Width="90" Height="24" Click="button_Click_1"/>
-        <Button x:Name="button1" Content="Авторизация" HorizontalAlignment="Left" Margin="10,149,0,0" Grid.Row="1" VerticalAlignment="Top" Width="90" Click="button1_Click"/>
-        <TextBlock Margin="117,147,10,30" Grid.Row="1" FontSize="20">
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="34" Margin="384,138,0,0" TextWrapping="Wrap" FontSize="{Binding Value, ElementName=MainFrame}" Text="Выберите услугу из списка ниже" VerticalAlignment="Top" Width="266"/>
+        <Button x:Name="button1" FontSize="{Binding ElementName=Grid1, Path=Value}" Content="Авторизация" HorizontalAlignment="Left" Margin="77,344,0,0"  VerticalAlignment="Top" Width="116" Click="button1_Click" Height="46"/>
+        <TextBlock Margin="384,408,-215,-224" FontSize="25" >
        <Hyperlink NavigateUri="http://www.suisse-majestic.ch/">Посетить сайт отеля</Hyperlink>
 
         </TextBlock>
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
+        <Button x:Name="enter" Content="Войти" HorizontalAlignment="Left" Margin="104,292,0,0" VerticalAlignment="Top" Width="91" RenderTransformOrigin="0.5,0.5" Click="enter_Click" Height="36">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.591"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
 
 
 

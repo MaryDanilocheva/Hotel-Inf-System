@@ -20,10 +20,7 @@ namespace Hotel_Inf_System2
     /// </summary>
     public partial class MainMenu : Page
     {
-        public MainMenu()
-        {
-            InitializeComponent();
-        }
+     
 
         private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
         {
@@ -61,11 +58,7 @@ namespace Hotel_Inf_System2
         }
         public ApplicationPage CurrentPage { get; set; } = ApplicationPage.Login;
 
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-
-            
-        }
+       
         private void Application_NavigationFailed(object sender,
        System.Windows.Navigation.NavigationFailedEventArgs e)
         {
@@ -77,14 +70,25 @@ namespace Hotel_Inf_System2
             }
         }
 
-        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
         {
 
         }
 
-        private void button_Click_1(object sender, RoutedEventArgs e)
+        private void enter_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/Login1.xaml", UriKind.Relative));
+            // NavigationService.Navigate(new Uri("/Login1.xaml", UriKind.Relative));
+            
+            Login1 w1 = new Login1();
+            w1.Show();
         }
+
+        //  private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        //{
+
+        //    }
+
+        
+
     }
 }

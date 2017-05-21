@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace Hotel_Inf_System2
 {
@@ -24,9 +25,33 @@ namespace Hotel_Inf_System2
             InitializeComponent();
         }
 
-        private void textBoxFio_TextChanged(object sender, TextChangedEventArgs e)
-        {
+       
 
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            string path = @"C:\Users\Nik\Desktop\Hotel Inf System2\checkin1.txt";
+            
+            string[] readText = File.ReadAllLines(path);
+            for (int i = 3; i < readText.Length; i+=5)
+            {
+                if (readText[i] == textBoxFio.Text)
+                {
+                    if (readText[i + 1] == textBox2.Text)
+                    {
+                        User user = new User();
+                        user.LastName = readText[i - 3];
+                        user.FirstName = readText[i - 2];
+                        user.OtchName = readText[i - 1];
+                        user.Room = int.Parse(readText[i]);
+                        user.Reserv = int.Parse(readText[i + 1]);
+                        StreamWriter textFile = new StreamWriter(@"C:\Users\Nik\Desktop\" + user.Room.ToString() + ".txt");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Неправильный логин или пароль!");
+                    }
+                }
+            }
         }
     }
 }

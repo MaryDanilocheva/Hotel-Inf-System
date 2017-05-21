@@ -96,6 +96,7 @@
     <Compile Include="TaxiPage5.xaml.cs">
       <DependentUpon>TaxiPage5.xaml</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <Page Include="Authorization.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

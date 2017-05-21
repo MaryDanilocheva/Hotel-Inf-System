@@ -25,10 +25,18 @@ namespace Hotel_Inf_System2
         {
             InitializeComponent();
         }
+        
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            string path = @"Resources\checkin.txt";
+            User user = new User();
+            user.LastName = textBox.Text;
+            user.FirstName = textBox1.Text;
+            user.OtchName = textBox2.Text;
+            user.Room = int.Parse(textBox3.Text);
+            user.Reserv = int.Parse(textBox4.Text);
+
+            string path = @"C:\Users\Nik\Desktop\Hotel Inf System2\checkin1.txt";
         
             if (!File.Exists(path))
             {
