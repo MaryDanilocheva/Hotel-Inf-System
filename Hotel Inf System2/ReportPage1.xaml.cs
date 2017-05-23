@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace Hotel_Inf_System2
 {
@@ -20,9 +21,12 @@ namespace Hotel_Inf_System2
     /// </summary>
     public partial class ReportPage1 : Page
     {
-        public ReportPage1()
+        User user;
+        public ReportPage1(User h)
         {
+            user = h;
             InitializeComponent();
+
         }
 
         private void Button1_Click(object sender, RoutedEventArgs e)
@@ -33,6 +37,12 @@ namespace Hotel_Inf_System2
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new Uri("/Chateau.xaml", UriKind.Relative));
+        }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Rochers(user));
+
         }
     }
 }

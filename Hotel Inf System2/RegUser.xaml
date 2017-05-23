@@ -9,7 +9,7 @@
       Title="RegUser">
 
     <Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="80,61,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="80,61,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="169" TextChanged="textBox_TextChanged"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="81,89,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="168"/>
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="27" Margin="81,117,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="168"/>
         <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="22" Margin="80,155,0,0" TextWrapping="Wrap" Text="Room" VerticalAlignment="Top" Width="94"/>

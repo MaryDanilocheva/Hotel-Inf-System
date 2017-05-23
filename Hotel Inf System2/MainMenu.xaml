@@ -12,7 +12,7 @@
     <Grid Name="Grid1" Height="522" Width="694" >
 
 
-        <Frame x:Name="MainFrame" Content="{Binding CurrentPage}" Navigated="MainFrame_Navigated" />
+        <Frame x:Name="MainFrame" Content="{Binding CurrentPage}" Navigated="MainFrame_Navigated" Margin="28,-46,-29,47" />
 
 
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="384,177,0,0" VerticalAlignment="Top" Width="268" FontSize="{Binding CurrentPage}" Height="39" >
@@ -29,7 +29,7 @@
        <Hyperlink NavigateUri="http://www.suisse-majestic.ch/">Посетить сайт отеля</Hyperlink>
 
         </TextBlock>
-        <Button x:Name="enter" Content="Войти" HorizontalAlignment="Left" Margin="104,292,0,0" VerticalAlignment="Top" Width="91" RenderTransformOrigin="0.5,0.5" Click="enter_Click" Height="36">
+        <Button x:Name="enter" Content="Войти" HorizontalAlignment="Left" Margin="122,267,0,0" VerticalAlignment="Top" Width="91" RenderTransformOrigin="0.5,0.5" Click="enter_Click" Height="36">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -39,6 +39,8 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
+        <TextBox x:Name="textBoxlogin" HorizontalAlignment="Left" Height="23" Margin="107,202,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxpassword" HorizontalAlignment="Left" Height="23" Margin="107,230,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
 
 

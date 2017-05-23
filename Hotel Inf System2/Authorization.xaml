@@ -9,6 +9,8 @@
       Title="Authorization">
 
     <Grid>
-        <Button x:Name="buttoncheckin" Content="Зарегистрировать пользователя" HorizontalAlignment="Left" Margin="83,119,0,0" VerticalAlignment="Top" Width="187" Click="buttoncheckin_Click"/>
+        <Button x:Name="buttoncheckin" Content="Зарегистрировать пользователя" HorizontalAlignment="Left" Margin="61,22,0,0" VerticalAlignment="Top" Width="187" Click="buttoncheckin_Click"/>
+        <Button x:Name="buttondelete" Content="Удалить пользователя" HorizontalAlignment="Left" Margin="134,105,0,0" VerticalAlignment="Top" Width="137" Height="28" Click="buttondelete_Click"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="100" Margin="10,62,0,0" VerticalAlignment="Top" Width="100" SelectionChanged="listBox_SelectionChanged"/>
     </Grid>
 </Page>

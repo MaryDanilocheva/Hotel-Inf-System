@@ -13,6 +13,7 @@ namespace Hotel_Inf_System2
         public string otchName;
         public int room;
         public int reserv;
+       
         public string FirstName
         {
             get { return firstName; }
@@ -24,7 +25,7 @@ namespace Hotel_Inf_System2
             set { lastName = value; }
         }
         public string OtchName
-             {
+        {
             get { return otchName; }
             set { otchName = value; }
         }
@@ -38,15 +39,31 @@ namespace Hotel_Inf_System2
             get { return reserv; }
             set { reserv = value; }
         }
-     //   public User(string _firstName, string _lastName, string _otchName, int _room,int _reserv)
-       // {
-         //   firstName = _firstName;
-           // lastName = _lastName;
-            //otchName = _otchName;
-           // room = _room;
-            //reserv = _reserv;
+        public User(string _firstName, string _lastName, string _otchName, int _room, int _reserv)
+        {
+            firstName = _firstName;
+            lastName = _lastName;
+            otchName = _otchName;
+            room = _room;
+            reserv = _reserv;
+        }
+        private List<string> Listbox=new List<string>();
+
+        public List<string> listbox
+        {
+            get { return Listbox; }
+            set { Listbox = value; }
+        }
+        public User()
+        {
 
         }
 
+
     }
+    
+    
+    }
+
+   
 

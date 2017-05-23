@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
+using System.Xml.Serialization;
 
 namespace Hotel_Inf_System2
 {
@@ -25,42 +26,75 @@ namespace Hotel_Inf_System2
         {
             InitializeComponent();
         }
-        
 
+        XmlSerializer ser =
+                           new XmlSerializer(typeof(List<User>));
+        List<User> mas = new List<User>();
+        
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            User user = new User();
-            user.LastName = textBox.Text;
-            user.FirstName = textBox1.Text;
-            user.OtchName = textBox2.Text;
-            user.Room = int.Parse(textBox3.Text);
-            user.Reserv = int.Parse(textBox4.Text);
+           
+            User user = new User(textBox.Text,textBox1.Text, textBox2.Text, int.Parse(textBox3.Text), int.Parse(textBox4.Text));
+            mas.Add(user);
 
-            string path = @"C:\Users\Nik\Desktop\Hotel Inf System2\checkin1.txt";
-        
+            string path = "../../checkin1.txt";
             if (!File.Exists(path))
             {
-               
+
                 using (StreamWriter sw = File.CreateText(path))
                 {
-                    sw.WriteLine(textBox.Text);
-                    sw.WriteLine(textBox1.Text);
-                    sw.WriteLine(textBox2.Text);
-                    sw.WriteLine(textBox3.Text);
-                    sw.WriteLine(textBox4.Text);
+                    ser.Serialize(sw, mas);
+                    sw.Close();
+                    //sw.WriteLine(user.LastName);
+                    //sw.WriteLine(user.FirstName);
+                    //sw.WriteLine(user.OtchName);
+                    //sw.WriteLine(user.Room);
+                    ////sw.WriteLine(user.Reserv);
                 }
             }
-           
-            using (StreamWriter sw = File.AppendText(path))
+            else
             {
-                sw.WriteLine(textBox.Text);
-                sw.WriteLine(textBox1.Text);
-                sw.WriteLine(textBox2.Text);
-                sw.WriteLine(textBox3.Text);
-                sw.WriteLine(textBox4.Text);
+                TextWriter writer = new StreamWriter("checkin1.txt");
+                ser.Serialize(writer, mas);
+                writer.Close();
             }
-         
+            //user.LastName = textBox.Text;
+            //user.FirstName = textBox1.Text;
+            //user.OtchName = textBox2.Text;
+            //user.Room = int.Parse(textBox3.Text);
+            //user.Reserv = int.Parse(textBox4.Text);
+            //user.listbox = mas;
+
+            //string path = "../../checkin1.txt";
+        
+            //if (!File.Exists(path))
+            //{
+
+            //    using (StreamWriter sw = File.CreateText(path))
+            //    {
+            //        sw.WriteLine(user.LastName);
+            //        sw.WriteLine(user.FirstName);
+            //        sw.WriteLine(user.OtchName);
+            //        sw.WriteLine(user.Room);
+            //        sw.WriteLine(user.Reserv);
+            //    }
+            //}
+
+            //using (StreamWriter sw = File.AppendText(path))
+            //{
+            //    sw.WriteLine(user.LastName);
+            //    sw.WriteLine(user.FirstName);
+            //    sw.WriteLine(user.OtchName);
+            //    sw.WriteLine(user.Room);
+            //    sw.WriteLine(user.Reserv);
+            //}
+
             MessageBox.Show("Пользователь успешно зарегистрирован!");
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 

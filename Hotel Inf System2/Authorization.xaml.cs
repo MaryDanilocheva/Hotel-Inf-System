@@ -30,5 +30,15 @@ namespace Hotel_Inf_System2
         {
             NavigationService.Navigate(new Uri("/RegUser.xaml", UriKind.Relative));
         }
+
+        private void buttondelete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
