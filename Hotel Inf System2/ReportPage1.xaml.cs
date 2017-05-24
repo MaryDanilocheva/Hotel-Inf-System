@@ -44,5 +44,7 @@ namespace Hotel_Inf_System2
             NavigationService.Navigate(new Rochers(user));
 
         }
+
+        
     }
 }

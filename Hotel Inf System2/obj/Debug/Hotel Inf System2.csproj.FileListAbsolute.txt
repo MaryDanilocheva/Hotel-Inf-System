@@ -235,3 +235,5 @@ F:\Hotel Inf System2 Nik\Hotel Inf System2\obj\Debug\Choose.g.cs
 F:\Hotel Inf System2 Nik\Hotel Inf System2\obj\Debug\Choose.baml
 D:\Hotel Inf System2 Nik\Hotel Inf System2\obj\Debug\Choose.g.cs
 D:\Hotel Inf System2 Nik\Hotel Inf System2\obj\Debug\Choose.baml
+D:\Hotel Inf System2 Nik\Hotel Inf System2\obj\Debug\TicketChateau.g.cs
+D:\Hotel Inf System2 Nik\Hotel Inf System2\obj\Debug\TicketChateau.baml

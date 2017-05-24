@@ -58,6 +58,10 @@ namespace Hotel_Inf_System2
         {
 
         }
+        public string Name( )
+        {
+            return String.Format(FirstName, LastName, OtchName);
+        }
 
 
     }

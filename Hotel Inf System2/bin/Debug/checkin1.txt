@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User>
+    <firstName>Петров</firstName>
+    <lastName>Петр</lastName>
+    <otchName>Петрович</otchName>
+    <room>30</room>
+    <reserv>3030</reserv>
+    <FirstName>Петров</FirstName>
+    <LastName>Петр</LastName>
+    <OtchName>Петрович</OtchName>
+    <Room>30</Room>
+    <Reserv>3030</Reserv>
+    <listbox />
+  </User>
+</ArrayOfUser>

@@ -13,6 +13,7 @@
         <Image HorizontalAlignment="Left" Height="100" Margin="180,122,0,0" VerticalAlignment="Top" Width="100" Source="Resources/Geneva-81701.jpg"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="180,200,0,0" VerticalAlignment="Top" Width="100" Source="Resources/0_e9d0d_c3086ce4_orig.jpg"/>
         <Label Content="Chateau de Chillon" HorizontalAlignment="Left" Margin="19,17,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="button" Content="Купить билет" HorizontalAlignment="Left" Margin="19,241,0,0" VerticalAlignment="Top" Width="125" Click="button_Click"/>
 
     </Grid>
 </Page>

@@ -42,13 +42,14 @@ namespace Hotel_Inf_System2
                     {
                        
                         User user = new User();
+                        Profileinf prof = null;
                         user.LastName = readText[i - 3];
                         user.FirstName = readText[i - 2];
                         user.OtchName = readText[i - 1];
                         user.Room = int.Parse(readText[i]);
                         user.Reserv = int.Parse(readText[i + 1]);
 
-                        NavigationService.Navigate(new Profile(user));
+                        NavigationService.Navigate(new Profile(user,prof));
 
                         //    StreamWriter textFile = new StreamWriter(@"D:\" + user.FirstName.ToString() + user.LastName.ToString() + ".txt");
                         //  //  string patha = (@"C:\Users\Nik\Desktop\" + user.Room.ToString() + ".txt");

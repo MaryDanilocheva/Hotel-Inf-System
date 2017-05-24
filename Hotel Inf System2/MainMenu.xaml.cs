@@ -34,37 +34,48 @@ namespace Hotel_Inf_System2
 
         private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/ReportPage1.xaml", UriKind.Relative));
+            try {
+                NavigationService.Navigate(new Uri("/ReportPage1.xaml", UriKind.Relative));
+            }
+            catch { }
         }
 
         private void ComboBoxItem_Selected_1(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new Uri("/DeliveryPage2.xaml", UriKind.Relative));
+            try {
+                NavigationService.Navigate(new Uri("/DeliveryPage2.xaml", UriKind.Relative));
+            }catch { }
         }
 
         private void ComboBoxItem_Selected_2(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/RestaurantPage3.xaml", UriKind.Relative));
+        { try {
+                NavigationService.Navigate(new Uri("/RestaurantPage3.xaml", UriKind.Relative));
+            } catch { }
         }
 
         private void ComboBoxItem_Selected_3(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/InterestingEventsPage4.xaml", UriKind.Relative));
+        { try {
+                NavigationService.Navigate(new Uri("/InterestingEventsPage4.xaml", UriKind.Relative));
+            } catch { }
         }
 
         private void ComboBoxItem_Selected_4(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/TaxiPage5.xaml", UriKind.Relative));
+        { try {
+                NavigationService.Navigate(new Uri("/TaxiPage5.xaml", UriKind.Relative));
+            } catch { }
         }
 
         private void ComboBoxItem_Selected_5(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/DryCleaningPage6.xaml", UriKind.Relative));
+        { try {
+                NavigationService.Navigate(new Uri("/DryCleaningPage6.xaml", UriKind.Relative));
+            } catch { }
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(new Uri("/Authorization.xaml", UriKind.Relative));
+        { try {
+                NavigationService.Navigate(new Uri("/Authorization.xaml", UriKind.Relative));
+            }
+            catch { }
         }
         public ApplicationPage CurrentPage { get; set; } = ApplicationPage.Login;
 
@@ -87,6 +98,9 @@ namespace Hotel_Inf_System2
         XmlSerializer ser =
                           new XmlSerializer(typeof(List<User>));
         List<User> mas = new List<User>();
+        XmlSerializer ser1 =
+                          new XmlSerializer(typeof(List<Profileinf>));
+        List<Profileinf> mas1 = new List<Profileinf>();
         private void enter_Click(object sender, RoutedEventArgs e)
         {
 
@@ -94,8 +108,12 @@ namespace Hotel_Inf_System2
             TextReader reader = new StreamReader("checkin1.txt");
             mas = (List<User>)ser.Deserialize(reader);
             reader.Close();
+            // reader = new StreamReader("profileinf.txt");
+            //mas1 = (List<Profileinf>)ser.Deserialize(reader);
+            //reader.Close();
             int t = 0;
             User newuser = null;
+            Profileinf inf = null;
             foreach (User p in mas)
                 if (int.Parse(textBoxlogin.Text) != p.Room)
                 {
@@ -103,12 +121,36 @@ namespace Hotel_Inf_System2
                 }
                 else { newuser = p; }
             {
-                if (int.Parse(textBoxlogin.Text) == newuser.Room && int.Parse(textBoxpassword.Text) == newuser.Reserv)
+               
+                    if (int.Parse(textBoxlogin.Text) == newuser.Room && int.Parse(textBoxpassword.Text) == newuser.Reserv)
+                    
                 {
                     //if (newworker.Profession == "Директор")
                     //{ this.NavigationService.Navigate(new DirectorsPage(newworker.Name)); }
+
+                    try
+                    {
+                        reader = new StreamReader("profileinf.txt");
+                        mas1 = (List<Profileinf>)ser1.Deserialize(reader);
+                        reader.Close();
+                        string user = newuser.Name();
+                        
+                        foreach (Profileinf prof in mas1)
+                    {
+                          if (user==prof.Name)
+                        {
+                                inf = prof;
+                         
+                            NavigationService.Navigate(new Profile(newuser,inf));
+                        }
+                            else { NavigationService.Navigate(new Profile(newuser)); }
+                    }
                     
-                    NavigationService.Navigate(new Profile(newuser));
+                    }
+                    catch { NavigationService.Navigate(new Profile(newuser)); }
+                    
+                   
+                    
                 }
                 else
                 {

@@ -82,6 +82,7 @@
     <Compile Include="Profile.xaml.cs">
       <DependentUpon>Profile.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Profileinf.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -104,6 +105,9 @@
     </Compile>
     <Compile Include="TaxiPage5.xaml.cs">
       <DependentUpon>TaxiPage5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketChateau.xaml.cs">
+      <DependentUpon>TicketChateau.xaml</DependentUpon>
     </Compile>
     <Compile Include="TicketRochers.xaml.cs">
       <DependentUpon>TicketRochers.xaml</DependentUpon>
@@ -181,6 +185,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="TaxiPage5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TicketChateau.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

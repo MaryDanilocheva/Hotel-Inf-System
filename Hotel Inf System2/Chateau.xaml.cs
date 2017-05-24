@@ -24,5 +24,14 @@ namespace Hotel_Inf_System2
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                NavigationService.Navigate(new Uri("/TicketChateau.xaml", UriKind.Relative));
+            }
+            catch { }
+        }
     }
 }
